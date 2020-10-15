@@ -5,4 +5,6 @@ root "welcome#home"
 get "about", to: "welcome#about"
 get "profile", to: "welcome#profile"
 
+resources :articles
+
 end
