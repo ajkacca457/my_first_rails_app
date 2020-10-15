@@ -1,24 +1,50 @@
-# README
+# MY BLOG APP
+ > This project implements a simple BLOG app that allows user to write new articles. User can create, delete, edit and store any written text with title.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Features
+- New article creation
+- List of all the articles
+- Delete and Edit option
 
-* Ruby version
 
-* System dependencies
+## Built With
+- Ruby on Rails
 
-* Configuration
+## Live Demo
 
-* Database creation
+[myblog](https://my-blog-avi.herokuapp.com/) - myblog
 
-* Database initialization
+## How to Install
 
-* How to run the test suite
+- Install Ruby in your system. To install Ruby, you can read the [Documentation](https://www.ruby-lang.org/en/documentation/installation/).
+- Install Rails. You can read this [page](https://www.theodinproject.com/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails).
+- Clone it using **git clone** command.
+- Run in your terminal **bundle install**.
+- Run in your terminal **rails db:migrate**.
+- Run in your terminal **rails server**.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Avijit Karmaker**
 
-* ...
+- Github: [@ajkacca457](https://github.com/ajkacca457)
+
+👤 **Damilola Oduronbi**
+
+- Github: [@oracleot](https://github.com/oracleot)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!.
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is Microverse student project
