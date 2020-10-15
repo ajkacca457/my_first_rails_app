@@ -1,0 +1,28 @@
+<h1>All the existing articles in store <h1>
+
+<h3><%= link_to "Create New Article", new_article_path %></h3>
+
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+
+<% @articles.each do |article|%>
+
+<tr style="font-weight:100;">
+  <td style="padding:10px; background-color:red;color:white;"> <%= article.title %> </td>
+  <td style="padding:10px;background-color:blue;color:white;"> <%= article.description %> </td>
+  <td style="padding:10px;background-color:green;color:white;text-decoration:none;"> <%= link_to "Edit", edit_article_path(article) %> </td>
+  <td style="padding:10px;background-color:yellow;color:white; text-decoration:none;"> <%= link_to "Show", article_path(article) %> </td>
+  <td style="padding:10px;background-color:orange;color:white; text-decoration:none;"> <%= link_to "Delete", article_path(article),method: :delete, data: {confirm:"Are you sure?"} %> </td>
+
+
+</tr>
+
+<% end %>
+
+  </table>
+
+
+<h4 style="background-color:gray;padding:5px;margin:10px; width:50px;"><%= link_to "Home", root_path %></h4>
